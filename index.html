@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grid&Bootstrap</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div class="row main-content">
+        <div class="col-2 title">
+            <h1>Sign up</h1>
+        </div>
+        <div class="col-10 registration">
+            <div>
+                <div class="row">
+                    <div class="col-12 welcome">
+                        <h2>New user?</h2>
+                        <p>Use the form below to create your account.</p>
+                    </div>
+                    <div class="user-data">
+                        <div class="row blank-container">
+                            <div class="col-6">
+                                <p>First Name</p>
+                                <input type="text" class="fname">
+                            </div>
+                            <div class="col-6">
+                                <p>Last Name</p>
+                                <input type="text" class="lname">
+                            </div>
+                        </div>
+                        <div class="row blank-container">
+                            <div class="col-6">
+                                <p>Nationality</p>
+                                <input type="text" class="nation">
+                            </div>
+                            <div class="col-6">
+                                <p>E-mail</p>
+                                <input type="text" class="mail">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-secondary">
+                        <div class="row blank-container">
+                            <div class="col-6">
+                                <p>Password</p>
+                                <input type="password">
+                            </div>
+                            <div class="col-6">
+                                <p>Confirm Password</p>
+                                <input type="password">
+                            </div>
+                        </div>
+                        <div class="row blank-container">
+                            <div class="col-6">
+                                <p>Date of Birth</p>
+                                <div>
+                                    <form>
+                                        <input type="date" name="calendar">
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="gender">
+                                    <div>
+                                        <input type="radio" id="huey" name="drone" value="huey"
+                                               checked>
+                                        <label for="huey">Male</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" id="dewey" name="drone" value="dewey">
+                                        <label for="dewey">Female</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row footer">
+                    <div class="col-6">
+                        <p>Have an account? <a href="#">Login</a></p>
+                    </div>
+                    <div class="col-6">
+                        <button>Complete Signup</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

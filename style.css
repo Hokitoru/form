@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.title{
+    background-color: #5A61ED;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.title > h1{
+    writing-mode: sideways-lr;
+    margin: 0 5px 20px 0;
+    font-weight: 400;
+    font-size: 49px;
+    color: #ffffff;
+}
+
+.registration{
+    background-color: #ffffff;
+}
+
+.registration > div{
+    margin-left: 20px;
+}
+
+.welcome{
+    margin: 0 0 20px 0;
+}
+
+.welcome > h2{
+    margin: 0;
+    font-size: 22px;
+    font-weight: 500;
+    color: #111111;
+}
+
+.welcome > p{
+    margin: 0;
+    color: #111111;
+}
+
+.blank-container > div > p{
+    margin: 0 0 5px 0;
+    font-size: 12px;
+    color: #7C7C7C;
+}
+
+.user-data{
+    margin: 0 0 75px 0;
+}
+
+.blank-container > div > p{
+    margin: 0 0 5px 0;
+    font-size: 12px;
+    color: #7C7C7C;
+}
+
+.blank-container{
+    margin: 0 0 20px 0;
+}
+
+.blank-container:last-child{
+    margin: 0 0 0 0;
+}
+
+
+.gender{
+    display: flex;
+}
+
