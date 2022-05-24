@@ -50,7 +50,7 @@ body{
     color: #7C7C7C;
 }
 
-.user-data{
+.user-data, .user-secondary{
     margin: 0 0 75px 0;
 }
 
@@ -60,14 +60,9 @@ body{
     color: #7C7C7C;
 }
 
-.blank-container{
-    margin: 0 0 20px 0;
+.user-data > div:last-child, .user-secondary > div:last-child{
+    margin: 20px 0 0 0;
 }
-
-.blank-container:last-child{
-    margin: 0 0 0 0;
-}
-
 
 .gender{
     display: flex;
